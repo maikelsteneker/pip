@@ -30,7 +30,7 @@ if sys.version_info[0] < 3:  # pragma: no cover
     import urllib2
     from urllib2 import (Request, urlopen, URLError, HTTPError,
                          HTTPBasicAuthHandler, HTTPPasswordMgr,
-                         HTTPSHandler, HTTPHandler, HTTPRedirectHandler,
+                         HTTPHandler, HTTPHandler as HTTPSHandler, HTTPRedirectHandler,
                          build_opener)
     import httplib
     import xmlrpclib
